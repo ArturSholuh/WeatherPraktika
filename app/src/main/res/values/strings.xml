@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Sky Weather</string>
+
+    <string name="facebook_app_id">119009876925632</string>
+    <string name="fb_login_protocol_scheme">fb119009876925632</string>
+
+    <string name="try_later">Попробуйте позже</string>
+    <string name="login_google">Войти с Google</string>
+    <string name="login_facebook">Войти с Facebook</string>
+    <string name="successful_login">Успешный вход</string>
+    <string name="login_failed">Ошибка входа</string>
+    <string name="login_from_another_service">An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address.</string>
+    <string name="login_from_another_service_message">Адрес электронной почты уже зарегистрирован с помощью другого сервиса. Попробуйте другие варианты входа</string>
+
+    <string name="select_city">Чтобы начать выберите город</string>
+    <string name="city_not_found">Город не найден</string>
+    <string name="unknown_place">Неизвестное место</string>
+    <string name="feels_like_temp">Ощущается как </string>
+    <string name="error_open_map">Невозможно открыть карту</string>
+    <string name="main_activity_title">Главная</string>
+    <string name="map">Карта</string>
+    <string name="settings">Настройки</string>
+    <string name="graph">График</string>
+    <string name="weather_not_set">Погода не задана. Напоминание не установлено</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="main_settings_title">Общие</string>
+    <string name="notification_settings">Напоминания</string>
+
+    <string name="settings_temp_title">Отображать температуру</string>
+
+    <string name="notification_settings_title">Напоминать о погоде</string>
+    <string name="notification_period">Обновлять значение</string>
+    <string name="weather_image">weather image</string>
+    <string name="updated">Обновлено</string>
+    <string name="no_connection">Нет подключения к сети</string>
+    <string name="notification_on">Напоминание установлено</string>
+    <string name="notification_off">Напоминание удалено</string>
+    <string name="place_not_found">Место не найдено</string>
+</resources>

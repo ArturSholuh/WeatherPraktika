@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/light_blue_200">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/main_fragment_container"
+            android:name="com.example.weather.Fragments.BlankFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_blank"/>
+
+        <FrameLayout
+            android:id="@+id/frameLayout_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".Activity.MainActivity"
+                android:name="com.google.android.gms.maps.SupportMapFragment" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
