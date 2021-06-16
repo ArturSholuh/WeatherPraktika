@@ -7,11 +7,6 @@
         android:title="Map"
         app:showAsAction="ifRoom" />
 
-    <!--<item android:id="@+id/location_search"
-        android:icon="@drawable/ic_location_on_24"
-        android:title="location"
-        app:showAsAction="ifRoom"/> -->
-
     <item
         android:id="@+id/action_search"
         android:icon="@drawable/ic_search_24"
